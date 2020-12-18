@@ -1,0 +1,118 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  width: 900px;
+  border-radius: 10px;
+  font-family: 'Antic Slab', serif;
+  -webkit-box-shadow: 3px 3px 5px 6px #ccc;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+  -moz-box-shadow:    3px 3px 5px 6px #ccc;  /* Firefox 3.5 - 3.6 */
+  box-shadow:         3px 3px 5px 6px #ccc;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+}
+
+/*color styles*/
+h3{
+  color: #6C51C3;
+}
+
+
+/*left section*/
+.left_section {
+  width: 30%;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+}
+/*end of left section*/
+
+
+/*right section*/
+.right_section {
+  width: 70%;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+}
+/*end of right section*/
+
+
+/*contact group*/
+.contact_element {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+section > img {
+  width: 20px;
+}
+/*end of contact group*/
+
+
+/*skills group*/
+.skill_element {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/*end of skills group*/
+
+
+/*language group*/
+.language_element {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+/*end of language group*/
+
+
+/*photo, fullname group*/
+.p_f_group {
+  display: flex;
+}
+.photo {
+  width: 200px;
+  border-radius: 15px;
+  -webkit-box-shadow: 3px 3px 5px 6px #ccc;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+  -moz-box-shadow:    3px 3px 5px 6px #ccc;  /* Firefox 3.5 - 3.6 */
+  box-shadow:         3px 3px 5px 6px #ccc;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+}
+.fullname_group {
+  width: auto;
+  padding-left: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+/*end of photo, fullname group*/
+
+
+/*bio group*/
+
+/*end of bio group*/
+
+
+/* work experience group*/
+
+/*end of work experience group*/
+
+
+/* education group group*/
+
+/*end of education  group*/
+
+
+/* education Certification group*/
+.certificate_element {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+/*end of Certification  group*/

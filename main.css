@@ -102,3 +102,35 @@ section > img {
   justify-content: space-between;
 }
 /*end of Certification  group*/
+
+@media only screen and (max-width: 800px) {
+  body {
+    padding: 0px;
+    margin: 0px;
+  }
+  .container {
+    border-radius: 0px;
+    width: 100%;
+    flex-direction: column-reverse;
+    box-shadow: none;
+  }
+  .left_section {
+    flex-direction: column-reverse;
+    width: 99%;
+    padding: 5px;
+  }
+  .right_section {
+    justify-content: center;
+    width: 99%;
+    padding: 5px;
+  }
+  .fullname_group {
+    width: auto;
+    padding-left: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+}

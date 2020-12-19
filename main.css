@@ -16,16 +16,32 @@ body {
 
 /*color styles*/
 h3{
-  color: #6C51C3;
+  color: #5F4B8BFF;
 }
 
+mark {
+  background-color: #5F4B8BFF;
+  color: whitesmoke;
+}
 
+figure {
+  display: flex;
+  margin: 0px;
+}
+
+ul {
+  padding: 0px;
+  list-style: none;
+}
 /*left section*/
 .left_section {
   width: 30%;
   padding: 30px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
   display: flex;
   flex-direction: column;
+  background-color: #E69A8DFF;
 }
 /*end of left section*/
 
@@ -47,7 +63,7 @@ h3{
   justify-content: space-between;
 }
 
-section > img {
+div > img {
   width: 20px;
 }
 /*end of contact group*/
@@ -60,6 +76,9 @@ section > img {
   justify-content: space-between;
 }
 
+div > figure > img {
+  width: 20px;
+}
 /*end of skills group*/
 
 
@@ -113,11 +132,13 @@ section > img {
     width: 100%;
     flex-direction: column-reverse;
     box-shadow: none;
+    margin: 10px;
   }
   .left_section {
     flex-direction: column-reverse;
     width: 99%;
     padding: 5px;
+    background-color: white;
   }
   .right_section {
     justify-content: center;

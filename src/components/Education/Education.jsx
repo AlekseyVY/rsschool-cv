@@ -3,7 +3,7 @@ import {Container} from "./education.styles";
 
 const Education = () => {
   return(
-    <Container>
+    <Container id="educationID">
       <h1>
         Education
       </h1>

@@ -14,7 +14,7 @@ const NavBar = () => {
           </NavElement>
           <NavElement>
             <NavigationLink href="#skillsID">
-              Services
+              Skills
             </NavigationLink>
           </NavElement>
           <NavElement>

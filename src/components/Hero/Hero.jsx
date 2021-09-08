@@ -13,7 +13,7 @@ import LottiePlayer from "../lottiePlayer/LottiePlayer";
 
 const Hero = () => {
   return(
-    <Container>
+    <Container id="homeID">
       <AnimationWrapper>
         <LottiePlayer data={'./lotties/hero_2.json'} name={'hero'}/>
       </AnimationWrapper>

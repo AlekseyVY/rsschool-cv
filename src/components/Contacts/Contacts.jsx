@@ -3,7 +3,7 @@ import {Container} from "./contacts.styles";
 
 const Contacts = () => {
   return (
-    <Container>
+    <Container id="contactsID">
       <h1>
         Contacts
       </h1>

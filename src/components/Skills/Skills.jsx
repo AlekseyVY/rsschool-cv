@@ -3,7 +3,7 @@ import {Container} from "./skills.styles";
 
 const Skills = () => {
   return(
-    <Container>
+    <Container id="skillsID">
       <h1>
         Skills
       </h1>

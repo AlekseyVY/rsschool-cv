@@ -83,3 +83,7 @@ export const CVDownloadBtn = styled.div`
     color: white;
   }
 `;
+
+export const CVDownloadLink = styled.a`
+  text-decoration: none;
+`;

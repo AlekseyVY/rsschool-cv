@@ -2,7 +2,7 @@ import {
   AnimationWrapper,
   Container,
   CTAContainer,
-  CVDownloadBtn,
+  CVDownloadBtn, CVDownloadLink,
   Emphasized,
   MainText,
   PText,
@@ -29,9 +29,11 @@ const Hero = () => {
           excellent organizational skills. Clear understanding of <Emphasized>Front End</Emphasized> and <Emphasized>Back End</Emphasized> and training in JavaScript,
           React, Redux, ExpressJS, Html, Css. Motivated to learn, grow and excel in <Emphasized>Web Development</Emphasized>.
         </PText>
-        <CVDownloadBtn>
-          Download CV
-        </CVDownloadBtn>
+        <CVDownloadLink href='./assets/cv.pdf' download>
+          <CVDownloadBtn>
+            Download CV
+          </CVDownloadBtn>
+        </CVDownloadLink>
       </CTAContainer>
     </Container>
   )

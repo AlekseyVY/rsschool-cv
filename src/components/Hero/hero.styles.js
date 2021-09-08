@@ -18,18 +18,19 @@ export const AnimationWrapper = styled.div`
   left: 0;
   bottom: 0;
   pointer-events: none;
-  z-index: -1;
+  z-index: -2;
 `;
+
 
 export const CTAContainer = styled.div`
   max-width: 60rem;
   width: 100%;
-  max-height: 35rem;
   height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  padding: 2rem;
 
   backdrop-filter: blur(10px) saturate(180%);
   -webkit-backdrop-filter: blur(10px) saturate(180%);
@@ -58,7 +59,7 @@ export const SecText = styled.h2`
 
 export const PText = styled.p`
   font-size: 2rem;
-  margin-left: 2rem;
+  text-align: justify;
 `;
 
 export const Emphasized = styled.span`

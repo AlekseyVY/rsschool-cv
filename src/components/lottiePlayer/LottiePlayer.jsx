@@ -16,7 +16,6 @@ const LottiePlayer = ({data, name}) => {
         progressiveLoad: true,
       }
     });
-    lottie.setQuality('low');
   }, [data, name])
 
 

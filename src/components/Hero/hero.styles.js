@@ -10,3 +10,12 @@ export const Container = styled.section`
   align-items: center;
   justify-content: center;
 `;
+
+
+export const AnimationWrapper = styled.div`
+  width: 1000px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  pointer-events: none;
+`;

@@ -1,4 +1,4 @@
-import styled, { keyframes } from 'styled-components';
+import styled from 'styled-components';
 
 
 
@@ -59,24 +59,6 @@ export const NavElement = styled.li`
   }
 `;
 
-const settingsAnimation = keyframes`
-  0% {transform: rotate(0deg)}
-  100% {transform: rotate(360deg)}
-`;
-
-export const SettingsSVG = styled.svg`
-  width: 30px;
-  height: 30px;
-  fill: black;
-  
-  &:hover {
-    fill: #f74705;
-    cursor: pointer;
-    animation-name: ${settingsAnimation};
-    animation-duration: 4s;
-    animation-iteration-count: infinite;
-  }
-`;
 
 export const NavigationLink = styled.a`
   text-decoration: none;

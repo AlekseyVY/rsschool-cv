@@ -15,7 +15,7 @@ const Hero = () => {
   return(
     <Container>
       <AnimationWrapper>
-        <LottiePlayer data={'./lotties/hero.json'} name={'hero'}/>
+        <LottiePlayer data={'./lotties/hero_2.json'} name={'hero'}/>
       </AnimationWrapper>
       <CTAContainer>
         <MainText>

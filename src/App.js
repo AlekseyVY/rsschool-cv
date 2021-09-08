@@ -6,10 +6,12 @@ import Skills from "./components/Skills/Skills";
 import Education from "./components/Education/Education";
 import Portfolio from "./components/Portfolio/Portfolio";
 import Contacts from "./components/Contacts/Contacts";
+import NavBar from "./components/navBar/Navbar";
 
 function App() {
   return (
     <Container>
+      <NavBar />
       <Hero />
       <Skills />
       <Education />

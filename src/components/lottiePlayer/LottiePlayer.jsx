@@ -17,7 +17,7 @@ const LottiePlayer = ({data, name}) => {
       }
     });
     lottie.setQuality('low');
-  }, [])
+  }, [data, name])
 
 
 

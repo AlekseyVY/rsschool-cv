@@ -14,31 +14,31 @@ const Portfolio = () => {
       icon: '2',
       name: 'Project Storyteller',
       githubLink: 'https://github.com/AlekseyVY/project_NightFall',
-      deployLink: '',
+      deployLink: 'https://flamboyant-banach-a4efe5.netlify.app/',
     },
     {
       icon: '3',
       name: 'TODO',
       githubLink: 'https://github.com/AlekseyVY/todo-app',
-      deployLink: '',
+      deployLink: 'https://todo-app-smoky-nine.vercel.app/',
     },
     {
       icon: '4',
       name: 'Countdown timer',
       githubLink: 'https://github.com/AlekseyVY/launch-countdown-timer',
-      deployLink: '',
+      deployLink: 'https://launch-countdown-timer-smoky.vercel.app/',
     },
     {
       icon: '5',
       name: 'Rock, Paper, Scissors',
       githubLink: 'https://github.com/AlekseyVY/rock_paper_scissor',
-      deployLink: '',
+      deployLink: 'https://serene-swanson-6fa1bf.netlify.app/',
     },
     {
       icon: '6',
       name: 'Holo clock',
       githubLink: 'https://github.com/AlekseyVY/steampunk_clock',
-      deployLink: '',
+      deployLink: 'https://holo-clock.netlify.app/',
     }]
   return(
     <Container id="portfolioID">
@@ -50,7 +50,8 @@ const Portfolio = () => {
                 <PortfolioCard
                   data={portfolioCardsDataArray[idx].icon}
                   desc={portfolioCardsDataArray[idx].name}
-                  link={portfolioCardsDataArray[idx].githubLink}
+                  gitLink={portfolioCardsDataArray[idx].githubLink}
+                  deployLink={portfolioCardsDataArray[idx].deployLink}
                 />
               </div>
             )

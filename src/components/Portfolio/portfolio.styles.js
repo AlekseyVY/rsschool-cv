@@ -10,3 +10,12 @@ export const Container = styled.section`
   align-items: center;
   justify-content: center;
 `;
+
+export const CardsWrapper = styled.div`
+  max-width: 110rem;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+`;

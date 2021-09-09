@@ -1,12 +1,13 @@
-import {Container} from "./education.styles";
+import {AnimationWrapper, Container} from "./education.styles";
+import LottiePlayer from "../lottiePlayer/LottiePlayer";
 
 
 const Education = () => {
   return(
     <Container id="educationID">
-      <h1>
-        Education
-      </h1>
+      <AnimationWrapper>
+        <LottiePlayer data={'./lotties/education.json'} name={'education'}/>
+      </AnimationWrapper>
     </Container>
   )
 }

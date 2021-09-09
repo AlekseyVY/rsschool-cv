@@ -62,6 +62,9 @@ export const Container = styled.div`
     backdrop-filter: blur(10px) saturate(180%);
     -webkit-backdrop-filter: blur(10px) saturate(180%);
     background-color: rgba(255, 255, 255, 0.55);
+
+    transform: scale(1.02);
+    transition: all 0.3s ease-in-out 0s;
   }
   &:hover ${GitLink} {
     opacity: 1;

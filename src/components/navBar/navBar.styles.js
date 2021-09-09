@@ -34,7 +34,6 @@ export const Navigation = styled.ul`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  font-family: 'Kaisei HarunoUmi', serif;
   font-size: 2rem;
   text-transform: uppercase;
   opacity: 1;

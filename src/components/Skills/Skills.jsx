@@ -1,4 +1,4 @@
-import {Container, InnerWrapper} from "./skills.styles";
+import {Container} from "./skills.styles";
 import SkillCard from "../skillCard/SkillCard";
 
 

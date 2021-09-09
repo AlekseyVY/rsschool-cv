@@ -9,11 +9,11 @@ export const Container = styled.section`
   min-height: 100vh;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-end;
 `;
 
 export const AnimationWrapper = styled.div`
-  max-width: 1000px;
+  max-width: 900px;
   width: 100%;
   position: absolute;
   left: -10rem;

@@ -25,6 +25,10 @@ export const Container = styled.div`
 export const IconWrapper = styled.div`
   width: 200px;
   height: 200px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
 `;
 
 

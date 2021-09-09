@@ -10,7 +10,10 @@ const Skills = () => {
         skillArray.map((skill, idx) => {
           return (
             <div key={idx}>
-              <SkillCard key={idx} mainText={skillArray[idx]}/>
+              <SkillCard
+                mainText={skillArray[idx]}
+                icon="1"
+              />
             </div>
           )
         })

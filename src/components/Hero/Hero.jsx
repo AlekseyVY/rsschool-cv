@@ -5,7 +5,7 @@ import {
   CVDownloadBtn, CVDownloadLink,
   Emphasized,
   MainText,
-  PText, SecondAnimationWrapper,
+  PText,
   SecText
 } from "./hero.styles";
 import LottiePlayer from "../lottiePlayer/LottiePlayer";

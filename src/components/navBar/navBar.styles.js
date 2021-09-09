@@ -18,8 +18,8 @@ export const Container = styled.div`
   color: black;
 `;
 
-export const NavWrapper = styled.div`
-  max-width: 1440px;
+export const NavWrapper = styled.nav`
+  max-width: 144rem;
   width: 100%;
   height: 100%;
   display: flex;
@@ -28,13 +28,13 @@ export const NavWrapper = styled.div`
 `;
 
 export const Navigation = styled.ul`
-  width: 600px;
+  width: 60rem;
   list-style: none;
   display: flex;
   justify-content: space-between;
   align-items: center;
   font-family: 'Kaisei HarunoUmi', serif;
-  font-size: 1.1rem;
+  font-size: 2rem;
   text-transform: uppercase;
   opacity: 1;
 `;
@@ -44,7 +44,7 @@ export const NavElement = styled.li`
     bottom: 0;
     content: "";
     display: block;
-    height: 2px;
+    height: 0.2rem;
     left: 50%;
     background-color: black;
     transition: width 0.5s ease 0s, left 0.5s ease 0s;

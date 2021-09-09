@@ -2,10 +2,9 @@ import styled from "styled-components";
 
 
 export const Container = styled.section`
-  max-width: 1440px;
+  max-width: 144rem;
   width: 100%;
   position: relative;
-  
   min-height: 100vh;
   display: flex;
   align-items: center;
@@ -24,42 +23,41 @@ export const AnimationWrapper = styled.div`
 
 
 export const CTAContainer = styled.div`
-  max-width: 60rem;
+  max-width: 90rem;
   width: 100%;
   height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 2rem;
+  padding: 4rem;
 
-  backdrop-filter: blur(10px) saturate(180%);
-  -webkit-backdrop-filter: blur(10px) saturate(180%);
+  backdrop-filter: blur(1rem) saturate(180%);
+  -webkit-backdrop-filter: blur(1rem) saturate(180%);
   background-color: rgba(255, 255, 255, 0.55);
-  border-radius: 10px;
+  border-radius: 1rem;
 `;
 
 export const MainText = styled.h1`
-  width: 35rem;
   background-color: #f74705;
-  font-size: 5rem;
+  font-size: 6rem;
   margin-top: 1rem;
   margin-bottom: 1rem;
   display: flex;
   align-items: center;
   justify-content: center;
-  border-radius: 10px;
+  border-radius: 1rem;
   color: white;
 `;
 
 export const SecText = styled.h2`
-  font-size:4rem;
+  font-size: 4rem;
   margin-top: 1rem;
   margin-bottom: 1rem;
 `;
 
 export const PText = styled.p`
-  font-size: 2rem;
+  font-size: 3rem;
   text-align: justify;
 `;
 
@@ -70,7 +68,7 @@ export const Emphasized = styled.span`
 `;
 
 export const CVDownloadBtn = styled.div`
-  font-size: 1.5rem;
+  font-size: 2rem;
   width: 150px;
   height: 50px;
   border-radius: 10px;

@@ -1,11 +1,11 @@
 import {Container, IconWrapper, LogoText} from "./skillCard.styles";
 
 
-const Skill = ({mainText}) => {
+const Skill = ({mainText, icon}) => {
   return (
     <Container>
       <IconWrapper>
-        icon
+        {icon}
       </IconWrapper>
       <LogoText>
         {mainText}

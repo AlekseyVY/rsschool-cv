@@ -24,12 +24,11 @@ const Hero = () => {
         </MainText>
         <SecText>
           <Typewriter
-            onInit={(typewriter) => {
-              typewriter.typeString('Full Stack Web Developer.')
-                .callFunction(() => {
-                  console.log('String typed out!');
-                })
-                .start();
+            options={{
+              strings: ['Full Stack Web Developer.'],
+              autoStart: true,
+              pauseFor: 3000,
+              loop: true,
             }}
           />
         </SecText>

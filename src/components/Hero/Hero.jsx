@@ -8,6 +8,7 @@ import {
   PText,
   SecText
 } from "./hero.styles";
+import Typewriter from 'typewriter-effect';
 import LottiePlayer from "../lottiePlayer/LottiePlayer";
 
 
@@ -22,7 +23,15 @@ const Hero = () => {
           Aleksey Vasiliev
         </MainText>
         <SecText>
-          Web Developer
+          <Typewriter
+            onInit={(typewriter) => {
+              typewriter.typeString('Full Stack Web Developer.')
+                .callFunction(() => {
+                  console.log('String typed out!');
+                })
+                .start();
+            }}
+          />
         </SecText>
         <PText>
           Enthusiastic <Emphasized>Web Developer</Emphasized> eager to contribute to team success through hard work, attention to detail and

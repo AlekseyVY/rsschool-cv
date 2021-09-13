@@ -1,25 +1,17 @@
 import {
-  Area,
+
   Container,
-  FormWrapper,
-  Input,
-  LeftFormWrapper,
-  RightFormWrapper, SocialIcon,
-  SocialWrapper,
-  Submit
+  SocialIcon,
+  SocialWrapper
 } from "./contactForm.styles";
+import VideoPlayer from "../video/VideoPlayer";
 
 
 const ContactForm = () => {
   return (
     <Container>
-      <FormWrapper>
-        <LeftFormWrapper>
-          <Input placeholder="name..."/>
-          <Input type="email" placeholder="email..."/>
-          <Input type="phone" placeholder="phone..."/>
+      <VideoPlayer />
           <SocialWrapper>
-
               <a href="https://github.com/AlekseyVY" target="_blank" rel="noreferrer">
                 <SocialIcon>
                 <svg version="1.1"  width="50" height="50"
@@ -86,22 +78,6 @@ const ContactForm = () => {
                 </SocialIcon>
               </a>
           </SocialWrapper>
-        </LeftFormWrapper>
-        <RightFormWrapper>
-          <Area
-            placeholder="information..."
-            data-gramm="false"
-            data-gramm_editor="false"
-            data-enable-grammarly="false"
-            spellCheck="false"
-            rows={5}
-            cols={33}
-          />
-          <Submit>
-            submit
-          </Submit>
-        </RightFormWrapper>
-      </FormWrapper>
     </Container>
   )
 }

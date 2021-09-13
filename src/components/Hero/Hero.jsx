@@ -15,7 +15,7 @@ import LottiePlayer from "../lottiePlayer/LottiePlayer";
 const Hero = () => {
   return(
     <Container id="homeID">
-      <AnimationWrapper>
+      <AnimationWrapper alt={"My Avatar"}>
         <LottiePlayer data={'./lotties/hero_2.json'} name={'hero'}/>
       </AnimationWrapper>
       <CTAContainer>

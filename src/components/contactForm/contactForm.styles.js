@@ -14,11 +14,12 @@ export const Container = styled.div`
 `;
 
 
-export const SocialWrapper = styled.div`
+export const SocialWrapper = styled.ul`
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-around;
+  list-style: none;
 `;
 
 export const SocialIcon = styled.div`

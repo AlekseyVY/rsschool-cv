@@ -13,3 +13,13 @@ export const Container = styled.section`
   justify-content: center;
   align-items: center;
 `;
+
+export const Wrapper = styled.ul`
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+`;

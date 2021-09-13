@@ -1,6 +1,15 @@
-import {Container, DeployLink, DescLogo, DescWrapper, GitLink, Link, Overlay} from "./portfolioCard.styles";
+import {
+  Container,
+  DeployLink,
+  DescLogo, DescriptionWrapper,
+  DescWrapper,
+  GitLink,
+  Link,
+  Overlay, TechContent,
+  TechWrapper
+} from "./portfolioCard.styles";
 
-const PortfolioCard = ({data, desc, gitLink, deployLink}) => {
+const PortfolioCard = ({data, desc, gitLink, deployLink, tech, description}) => {
   return(
     <>
 
@@ -10,6 +19,20 @@ const PortfolioCard = ({data, desc, gitLink, deployLink}) => {
             <DescLogo>
               {desc}
             </DescLogo>
+            <TechWrapper>
+              {
+                tech.map((ele, idx) => {
+                  return(
+                    <TechContent key={`${ele.length}_${idx}`}>
+                      {ele}
+                    </TechContent>
+                  )
+                })
+              }
+            </TechWrapper>
+            <DescriptionWrapper>
+              {description}
+            </DescriptionWrapper>
           </DescWrapper>
           <Overlay>
           </Overlay>

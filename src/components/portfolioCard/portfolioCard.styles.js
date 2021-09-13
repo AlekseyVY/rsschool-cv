@@ -92,18 +92,49 @@ export const DescWrapper = styled.div`
   bottom: 0;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  justify-content: space-around;
   width: 100%;
   height: 45%;
   background-color: white;
 `;
 
-export const DescLogo = styled.h3`
-  font-size: 3rem;
+export const DescLogo = styled.div`
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 33%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.1rem;
 `;
 
 export const Link = styled.a`
   text-decoration: none;
   color: black;
+`;
+
+export const TechWrapper = styled.div`
+  width: 100%;
+  height: 33%;
+  font-size: 1.6rem;
+  display: flex;
+  flex-wrap: wrap;
+`;
+
+export const TechContent = styled.div`
+  color: white;
+  margin: 0.5rem 0.5rem;
+  height: 1.6rem;
+  background-color: #f74705;
+  border-radius:0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.2rem;
+`;
+
+export const DescriptionWrapper = styled.div`
+  height: 33%;
+  font-size: 1.6rem;
 `;

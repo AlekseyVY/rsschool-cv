@@ -2,3 +2,8 @@ html {
     font-size: 62.5%;
     scroll-behavior: smooth;
 }
+
+ul {
+    margin: 0;
+    padding: 0;
+}

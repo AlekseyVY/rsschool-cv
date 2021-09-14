@@ -12,7 +12,6 @@ import {
 const PortfolioCard = ({data, desc, gitLink, deployLink, tech, description}) => {
   return(
     <>
-
         <Container>
           <img src={`./assets/portfolio/${data}.webp`} alt={desc}/>
           <DescWrapper>

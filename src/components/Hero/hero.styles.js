@@ -19,6 +19,10 @@ export const AnimationWrapper = styled.div`
   bottom: 0;
   pointer-events: none;
   z-index: -2;
+
+  @media (max-width: 639px) {
+    display: none;
+  }
 `;
 
 
@@ -47,17 +51,47 @@ export const MainText = styled.h1`
   justify-content: center;
   border-radius: 1rem;
   color: white;
+  @media (max-width: 549px) {
+    font-size: 6rem;
+  }
+  @media (max-width: 512px) {
+    font-size: 4.5rem;
+  }
+  @media (max-width: 425px) {
+    font-size: 3.5rem;
+  }
+  @media (max-width: 350px) {
+    font-size: 3.2rem;
+  }
+  @media (max-width: 320px) {
+    font-size: 3rem;
+  }
 `;
 
 export const SecText = styled.h2`
   font-size: 4rem;
   margin-top: 1rem;
   margin-bottom: 1rem;
+  @media (max-width: 549px) {
+    font-size: 3rem;
+  }
+  @media (max-width: 425px) {
+    font-size: 2.5rem;
+  }
+  @media (max-width: 320px) {
+    font-size: 2rem;
+  }
 `;
 
 export const PText = styled.p`
   font-size: 3rem;
   text-align: justify;
+  @media (max-width: 549px) {
+    font-size: 2rem;
+  }
+  @media (max-width: 425px) {
+    font-size: 1.6rem;
+  }
 `;
 
 export const Emphasized = styled.span`

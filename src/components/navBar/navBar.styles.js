@@ -26,6 +26,10 @@ export const NavWrapper = styled.nav`
   align-items: center;
   justify-content: flex-end;
   margin-right: 2rem;
+
+  @media (max-width: 768px) {
+    display: none;
+  }
 `;
 
 export const Navigation = styled.ul`

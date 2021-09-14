@@ -20,6 +20,10 @@ export const Container = styled.div`
     transition: all 0.3s ease-in-out 0s;
     color: #f74705;
   }
+
+  @media (max-width: 439px) {
+    width: 310px;
+  }
 `;
 
 export const IconWrapper = styled.div`

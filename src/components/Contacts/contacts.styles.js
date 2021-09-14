@@ -10,6 +10,12 @@ export const Container = styled.footer`
   display: flex;
   align-items: center;
   justify-content: flex-end;
+
+  @media (max-width: 768px) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 `;
 
 export const AnimationWrapper = styled.div`
@@ -20,4 +26,8 @@ export const AnimationWrapper = styled.div`
   bottom: 0;
   pointer-events: none;
   z-index: -2;
+
+  @media (max-width: 639px) {
+    display: none;
+  }
 `;

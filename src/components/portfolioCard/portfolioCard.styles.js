@@ -82,6 +82,9 @@ export const Container = styled.div`
     animation-name: ${opacityAnimation};
     animation-duration: 2s;
   }
+  @media (max-width: 360px) {
+    margin: 0;
+  }
 `;
 
 

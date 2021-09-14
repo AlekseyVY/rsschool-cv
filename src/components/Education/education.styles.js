@@ -10,6 +10,9 @@ export const Container = styled.section`
   display: flex;
   align-items: center;
   justify-content: flex-start;
+  @media (max-width: 768px) {
+    justify-content: center;
+  }
 `;
 
 export const AnimationWrapper = styled.div`
@@ -20,6 +23,9 @@ export const AnimationWrapper = styled.div`
   right: 0;
   pointer-events: none;
   z-index: -2;
+  @media (max-width: 639px) {
+    display: none;
+  }
 `;
 
 export const CodeWrapper = styled.aside`
@@ -32,4 +38,24 @@ export const CodeWrapper = styled.aside`
   backdrop-filter: blur(10px) saturate(180%);
   -webkit-backdrop-filter: blur(10px) saturate(180%);
   background-color: rgba(255, 255, 255, 0.55);
+  
+  @media (max-width: 768px) {
+    margin: 0;
+  }
+  @media (max-width: 639px) {
+    margin: 0;
+    font-size: 1.4rem;
+  }
+  @media (max-width: 500px) {
+    margin: 0;
+    font-size: 1.2rem;
+  }
+  @media (max-width: 425px) {
+    margin: 0;
+    font-size: 1rem;
+  }
+  @media (max-width: 320px) {
+    margin: 0;
+    font-size: 0.8rem;
+  }
 `;

@@ -43,6 +43,10 @@ export const CTAContainer = styled.div`
   -webkit-backdrop-filter: blur(1rem) saturate(180%);
   background-color: rgba(255, 255, 255, 0.55);
   border-radius: 1rem;
+
+  @media (max-width: 639px) {
+    padding: 1rem;
+  }
 `;
 
 export const MainText = styled.h1`

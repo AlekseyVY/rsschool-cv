@@ -41,8 +41,7 @@ export const CTAContainer = styled.div`
 export const MainText = styled.h1`
   background-color: #f74705;
   font-size: 6rem;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
+  padding: 1rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -63,6 +62,7 @@ export const PText = styled.p`
 
 export const Emphasized = styled.span`
   background-color: #f74705;
+  padding: 0.2rem;
   color: white;
   border-radius: 5px;
 `;

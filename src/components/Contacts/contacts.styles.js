@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 
-export const Container = styled.section`
+export const Container = styled.footer`
   max-width: 1440px;
   width: 100%;
   position: relative;

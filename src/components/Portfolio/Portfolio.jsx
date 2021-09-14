@@ -14,7 +14,7 @@ const Portfolio = () => {
   },
     {
       icon: '2',
-      tech: ["React", "PostgresDB", "JWT", "Bcrypt", "Express"],
+      tech: ["React", "PostgresDB", "Express"],
       description: "This is the final project for cs50 from Harvard University.",
       name: 'Project Storyteller',
       githubLink: 'https://github.com/AlekseyVY/project_NightFall',
@@ -39,7 +39,7 @@ const Portfolio = () => {
     {
       icon: '5',
       name: 'Rock, Paper, Scissors',
-      tech: ["React", "Redux", "Typescript", "eslint", "typedoc"],
+      tech: ["React", "Redux", "Typescript", "eslint"],
       description: "Game of Rock, Paper and Scissors.",
       githubLink: 'https://github.com/AlekseyVY/rock_paper_scissor',
       deployLink: 'https://serene-swanson-6fa1bf.netlify.app/',

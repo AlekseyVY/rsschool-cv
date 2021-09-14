@@ -96,9 +96,6 @@ export const PText = styled.p`
   @media (max-width: 549px) {
     font-size: 2rem;
   }
-  @media (max-width: 425px) {
-    font-size: 1.6rem;
-  }
 `;
 
 export const Emphasized = styled.span`

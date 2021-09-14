@@ -8,7 +8,9 @@ import Portfolio from "./components/Portfolio/Portfolio";
 import Contacts from "./components/Contacts/Contacts";
 import NavBar from "./components/navBar/Navbar";
 
+
 function App() {
+
   return (
     <Container>
       <NavBar />

@@ -1,10 +1,14 @@
-import {Container, NavElement, Navigation, NavigationLink, NavWrapper} from "./navBar.styles";
+import {Container, MobileNav, NavElement, Navigation, NavigationLink, NavWrapper} from "./navBar.styles";
+import MobileHamburger from "../MobileHamburger/MobileHamburger";
 
 
 const NavBar = () => {
 
   return (
     <Container>
+      <MobileNav>
+        <MobileHamburger />
+      </MobileNav>
       <NavWrapper>
         <Navigation>
           <NavElement>

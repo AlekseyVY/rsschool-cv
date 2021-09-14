@@ -27,7 +27,7 @@ export const NavWrapper = styled.nav`
   justify-content: flex-end;
   margin-right: 2rem;
 
-  @media (max-width: 768px) {
+  @media (max-width: 767px) {
     display: none;
   }
 `;
@@ -73,3 +73,11 @@ export const NavigationLink = styled.a`
     color: #f74705;
   }
 `;
+
+
+export const MobileNav = styled.div`
+  display: none;
+  @media (max-width: 767px) {
+    display: block;
+  }
+`

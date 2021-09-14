@@ -78,7 +78,7 @@ export const SecText = styled.h2`
   @media (max-width: 425px) {
     font-size: 2.5rem;
   }
-  @media (max-width: 320px) {
+  @media (max-width: 360px) {
     font-size: 2rem;
   }
 `;

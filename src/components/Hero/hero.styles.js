@@ -9,6 +9,9 @@ export const Container = styled.section`
   display: flex;
   align-items: center;
   justify-content: flex-end;
+  @media (max-width: 549px) {
+    justify-content: center;
+  }
 `;
 
 export const AnimationWrapper = styled.div`

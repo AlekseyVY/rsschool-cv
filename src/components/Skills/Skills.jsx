@@ -8,45 +8,27 @@ import { ReactComponent as NextJs } from '../../assets/nextjs.svg';
 import { ReactComponent as Node } from '../../assets/node.svg';
 
 const Skills = () => {
+  const dataObj = {
+    1: {name: 'JavaScript', icon: <Js />},
+    2: {name: 'TypeScript', icon: <Ts />},
+    3: {name: 'React', icon: <ReactSVG />},
+    4: {name: 'Redux', icon: <ReduxSVG />},
+    5: {name: 'NextJS', icon: <NextJs />},
+    6: {name: 'NodeJS', icon: <Node />},
+  };
+
   return(
       <Container id="skillsID">
         <Wrapper>
-          <li>
-            <SkillCard
-              mainText={'JavaScript'}
-              icon={<Js />}
-            />
-          </li>
-          <li>
-            <SkillCard
-              mainText={'TypeScript'}
-              icon={<Ts />}
-            />
-          </li>
-          <li>
-            <SkillCard
-              mainText={'React'}
-              icon={<ReactSVG />}
-            />
-          </li>
-          <li>
-            <SkillCard
-              mainText={'Redux'}
-              icon={<ReduxSVG />}
-            />
-          </li>
-          <li>
-            <SkillCard
-              mainText={'NextJS'}
-              icon={<NextJs />}
-            />
-          </li>
-          <li>
-            <SkillCard
-              mainText={'NodeJS'}
-              icon={<Node />}
-            />
-          </li>
+          {
+            Object.keys(dataObj).map((ele,) => {
+              return (
+                <li key={ele}>
+                  <SkillCard mainText={dataObj[ele].name} icon={dataObj[ele].icon}/>
+                </li>
+              )
+            })
+          }
         </Wrapper>
       </Container>
   )

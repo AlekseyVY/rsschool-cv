@@ -7,10 +7,11 @@ import Education from "./components/Education/Education";
 import Portfolio from "./components/Portfolio/Portfolio";
 import Contacts from "./components/Contacts/Contacts";
 import NavBar from "./components/navBar/Navbar";
+import Console from "./helpers/console";
 
 
 function App() {
-
+  Console()
   return (
     <Container>
       <NavBar />

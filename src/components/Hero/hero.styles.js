@@ -114,7 +114,7 @@ export const CVDownloadBtn = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  transition: 0.5s ease;
+  transition: 1s ease;
   
   &:hover {
     cursor: pointer;

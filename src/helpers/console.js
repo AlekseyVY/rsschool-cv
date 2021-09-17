@@ -46,7 +46,11 @@ const Console = () => {
     '\n' +
     '\n' +
     '\n' +
-    'ИТОГО: 150 баллов',
+    'ИТОГО: 150 баллов' +
+    '\n' +
+    '\n' +
+    '\n' +
+    'Ссылка на ПР - https://github.com/AlekseyVY/rsschool-cv/pull/7',
     'background: #fff; color: #f74705')
 }
 

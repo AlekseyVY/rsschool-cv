@@ -16,8 +16,10 @@ export const DeployLink = styled.div`
   right: 10%;
   z-index: 5;
   opacity: 0;
+  transition: 0.5s ease;
   &:hover {
     fill: #f74705;
+    transition: 0.5s ease;
   }
 `;
 
@@ -27,8 +29,10 @@ export const GitLink = styled.div`
   left: 10%;
   z-index: 5;
   opacity: 0;
+  transition: 0.5s ease;
   &:hover {
     fill: #f74705;
+    transition: 0.5s ease;
   }
 `;
 

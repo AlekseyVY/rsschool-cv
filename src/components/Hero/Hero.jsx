@@ -4,7 +4,7 @@ import {
   CTAContainer,
   CVDownloadBtn, CVDownloadLink,
   Emphasized,
-  MainText,
+  MainText, MobileAnimationWrapper,
   PText,
   SecText
 } from "./hero.styles";
@@ -18,6 +18,9 @@ const Hero = () => {
       <AnimationWrapper alt={"My Avatar"}>
         <LottiePlayer data={'./lotties/hero_2.json'} name={'hero'}/>
       </AnimationWrapper>
+      <MobileAnimationWrapper>
+        <LottiePlayer data={'./lotties/mobile.json'} name={'mobile_hero'}/>
+      </MobileAnimationWrapper>
       <CTAContainer>
         <MainText>
           Aleksey Vasiliev

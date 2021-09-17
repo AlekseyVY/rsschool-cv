@@ -1,6 +1,7 @@
-import {AnimationWrapper, CodeWrapper, Container} from "./education.styles";
+import {AnimationWrapper, CodeWrapper, Container, MobileAnimationWrapper} from "./education.styles";
 import LottiePlayer from "../lottiePlayer/LottiePlayer";
 import Highlight from 'react-highlight';
+
 
 const Education = () => {
 
@@ -50,6 +51,9 @@ const Education = () => {
       <AnimationWrapper>
         <LottiePlayer data={'./lotties/education.json'} name={'education'}/>
       </AnimationWrapper>
+      <MobileAnimationWrapper>
+        <LottiePlayer data={'./lotties/mobile.json'} name={'mobile_edu'}/>
+      </MobileAnimationWrapper>
     </Container>
   )
 }

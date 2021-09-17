@@ -1,4 +1,6 @@
 import {
+  ContactBtn,
+  ContactLink,
   Container,
   SocialIcon,
   SocialWrapper
@@ -46,6 +48,11 @@ const ContactForm = () => {
               </li>
             </SocialWrapper>
           </div>
+      <ContactLink href="mailto:alekseyvy@gmail?subject= Hi I want to Connect!">
+        <ContactBtn>
+          Connect
+        </ContactBtn>
+      </ContactLink>
     </Container>
   )
 }

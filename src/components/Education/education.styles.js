@@ -59,3 +59,20 @@ export const CodeWrapper = styled.aside`
     font-size: 0.8rem;
   }
 `;
+
+
+export const MobileAnimationWrapper = styled.div`
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  max-height: 100vh;
+  overflow: hidden;
+  z-index: -2;
+  pointer-events: none;
+  
+  @media (max-width: 639px) {
+    display: block;
+  }
+`;

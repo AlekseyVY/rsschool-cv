@@ -114,14 +114,32 @@ export const CVDownloadBtn = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: 0.5s ease;
   
   &:hover {
     cursor: pointer;
     background-color: #f74705;
     color: white;
+    transition: 0.5s ease;
   }
 `;
 
 export const CVDownloadLink = styled.a`
   text-decoration: none;
+`;
+
+export const MobileAnimationWrapper = styled.div`
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  max-height: 100vh;
+  overflow: hidden;
+  z-index: -2;
+  pointer-events: none;
+  
+  @media (max-width: 639px) {
+    display: block;
+  }
 `;

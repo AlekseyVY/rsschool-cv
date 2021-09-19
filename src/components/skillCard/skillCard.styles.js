@@ -36,7 +36,7 @@ export const IconWrapper = styled.div`
 `;
 
 
-export const LogoText = styled.div`
+export const LogoText = styled.h3`
   font-size:30px;
   margin-bottom: 20px;
 `;

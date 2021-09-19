@@ -90,7 +90,7 @@ export const SecText = styled.h2`
   }
 `;
 
-export const PText = styled.p`
+export const PText = styled.article`
   font-size: 3rem;
   text-align: justify;
   @media (max-width: 549px) {
